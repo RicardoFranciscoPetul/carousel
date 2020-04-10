@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 80%;
+  display: flex;
+}
+.testimonial {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+
+.single__testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: red;
+  width: 33.4%;
+  height: 100px;
+  transition: all 0.5s;
+}
+.arrow {
+  color: #f5526b;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.active {
+  background: steelblue;
+}
